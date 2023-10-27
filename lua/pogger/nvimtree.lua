@@ -8,8 +8,10 @@ require("nvim-tree").setup({
 	},
 	renderer = {
 		group_empty = true,
+		icons = { show = { folder = false, file = false, git = false, folder_arrow = false } },
 	},
 	filters = {
-		dotfiles = true,
+		dotfiles = false,
 	},
 })
+
