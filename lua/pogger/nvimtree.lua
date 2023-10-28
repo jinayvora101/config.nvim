@@ -11,7 +11,7 @@ require("nvim-tree").setup({
 		icons = { show = { folder = false, file = false, git = false, folder_arrow = false } },
 	},
 	filters = {
-		dotfiles = false,
+		dotfiles = true,
 	},
 })
 

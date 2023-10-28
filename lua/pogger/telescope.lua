@@ -15,8 +15,7 @@ telescope.setup {
 	},
 	pickers = {
 		find_files = {
-			hidden = true,
-			-- find_commands = { "rg", "--glob=**/.config/*" }
+			hidden = false,
 		}
 	}
 }

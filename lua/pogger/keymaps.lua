@@ -52,4 +52,5 @@ keymap("n", "<leader>fg", "<cmd>Telescope git_files<cr>", opts)
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
 keymap("n", "<leader>sc", "<cmd>Telescope spell_suggest<cr>", opts)
+keymap("n", "<leader>fc", "<cmd>lua require('telescope.builtin').find_files({cwd='~/.config/nvim'})<CR>", opts)
 
