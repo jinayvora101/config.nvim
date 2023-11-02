@@ -15,6 +15,9 @@ require("nvim-tree").setup({
 			git_placement = "after",
 		},
 	},
+	tab = {
+		sync = { open = true, close = true, ignore = {}, },
+	},
 	filters = {
 		dotfiles = true,
 	},
