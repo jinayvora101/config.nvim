@@ -7,7 +7,7 @@ require("nvim-tree").setup({
 		width = 24,
 	},
 	renderer = {
-		group_empty = true,
+		-- group_empty = true,
 		icons = { show = { folder = false, file = false, git = false, folder_arrow = false } },
 	},
 	filters = {
