@@ -16,6 +16,13 @@ telescope.setup {
 	pickers = {
 		find_files = {
 			hidden = false,
+		},
+		buffers = {
+			mappings = {
+				i = {
+					["dd"] = actions.delete_buffer + actions.move_selection_next,
+				}
+			}
 		}
 	}
 }
