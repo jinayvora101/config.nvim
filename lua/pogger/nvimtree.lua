@@ -3,12 +3,17 @@ vim.g.loaded_netrwPlugin = 1
 
 require("nvim-tree").setup({
 	sort_by = "case_sensitive",
+	update_cwd = true,
 	view = {
 		width = 24,
 	},
 	renderer = {
 		-- group_empty = true,
-		icons = { show = { folder = false, file = false, git = false, folder_arrow = false } },
+		icons = {
+			show = { folder = false, file = false, git = true, folder_arrow = false },
+			glyphs = { git = { unstaged = "<mod", staged = "<stg", unmerged = "<umg", renamed = "<rnm", deleted = "<del", untracked = "<new", ignored = "<ign" }, },
+			git_placement = "after",
+		},
 	},
 	filters = {
 		dotfiles = true,
