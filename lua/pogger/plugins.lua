@@ -51,14 +51,7 @@ return packer.startup(function(use)
 	use "nvim-tree/nvim-web-devicons"
 	use "jiangmiao/auto-pairs"
 	use "folke/which-key.nvim"
-
-
 	use "folke/tokyonight.nvim"
-	use { "catppuccin/nvim", as = "catppuccin" }
-	use "rebelot/kanagawa.nvim"
-	use "nyoom-engineering/oxocarbon.nvim"
-	use "bluz71/vim-moonfly-colors"
-	use "ntk148v/vim-horizon"
 
 
 	use "hrsh7th/nvim-cmp"

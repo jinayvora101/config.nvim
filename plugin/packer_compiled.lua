@@ -90,11 +90,6 @@ _G.packer_plugins = {
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,11 +109,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
-  },
-  ["kanagawa.nvim"] = {
-    loaded = true,
-    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -165,11 +155,6 @@ _G.packer_plugins = {
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["oxocarbon.nvim"] = {
-    loaded = true,
-    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
-    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -199,16 +184,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["vim-horizon"] = {
-    loaded = true,
-    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/vim-horizon",
-    url = "https://github.com/ntk148v/vim-horizon"
-  },
-  ["vim-moonfly-colors"] = {
-    loaded = true,
-    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
-    url = "https://github.com/bluz71/vim-moonfly-colors"
   },
   ["which-key.nvim"] = {
     loaded = true,
