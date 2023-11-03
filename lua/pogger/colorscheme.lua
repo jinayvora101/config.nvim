@@ -16,7 +16,10 @@ require("kanagawa").setup({
 		}
 	end,
 })
+
 -- moonfly
 -- oxocarbon
+-- horizon
 
-vim.cmd "colorscheme kanagawa"
+vim.cmd "colorscheme horizon"
+
