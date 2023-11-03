@@ -1,3 +1,5 @@
+vim.cmd [[ autocmd vimenter * if !argc() | NvimTreeOpen | endif ]]
+
 o = vim.opt
 
 o.tabstop = 4
@@ -13,6 +15,8 @@ o.ignorecase = true
 o.hlsearch = false
 o.showmode = false
 o.tabline = "%t %m"
+o.foldmethod = "indent"
+vim.cmd [[ set nofoldenable ]]
 
-vim.cmd [[ autocmd vimenter * if !argc() | NvimTreeOpen | endif ]]
 vim.cmd [[ set clipboard+=unnamedplus ]]
+
