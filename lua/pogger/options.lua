@@ -1,11 +1,11 @@
-local o = vim.opt
+o = vim.opt
 
 o.tabstop = 4
 o.shiftwidth = 4
 o.number = true
 o.relativenumber = true
 o.cursorline = true
-o.showtabline = 2
+o.showtabline = 0
 o.laststatus = 3
 o.scrolloff = 8
 o.wrap = true
