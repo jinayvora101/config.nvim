@@ -1,5 +1,5 @@
 require'nvim-treesitter.configs'.setup {
-	ensure_installed = { "lua", "python"},
+	ensure_installed = { "lua", "python", "gitignore", "ocaml", "ocaml_interface", "json", "c"},
 	sync_install = false,
 	auto_install = true,
 	highlight = {
