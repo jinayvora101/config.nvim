@@ -8,6 +8,7 @@ require("nvim-tree").setup({
 		width = 30,
 		number = true,
 	},
+	git = {show_on_open_dirs = false},
 	renderer = {
 		icons = {
 			show = { folder = false, file = false, git = true, folder_arrow = false },
