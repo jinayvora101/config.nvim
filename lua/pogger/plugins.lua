@@ -58,6 +58,7 @@ return packer.startup(function(use)
 	use "rebelot/kanagawa.nvim"
 	use "nyoom-engineering/oxocarbon.nvim"
 	use "bluz71/vim-moonfly-colors"
+	use "ntk148v/vim-horizon"
 
 
 	use "hrsh7th/nvim-cmp"

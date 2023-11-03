@@ -200,6 +200,11 @@ _G.packer_plugins = {
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-horizon"] = {
+    loaded = true,
+    path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/vim-horizon",
+    url = "https://github.com/ntk148v/vim-horizon"
+  },
   ["vim-moonfly-colors"] = {
     loaded = true,
     path = "/home/poggerez/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
