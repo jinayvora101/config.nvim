@@ -1,4 +1,5 @@
-local keymap = vim.api.nvim_set_keymap
+-- local keymap = vim.api.nvim_set_keymap
+local keymap = vim.keymap.set
 local opts = {
 	noremap = true,
 	silent = true,
@@ -31,9 +32,13 @@ keymap("n", "<C-S-Down>", ":horizontal resize +1<CR>", opts)
 -- keymap("n", "<S-Right>", ":bnext<CR>", opts)
 -- keymap("n", "<S-Left>", ":bprevious<CR>", opts)
 
+-- Tab navigation
+keymap("n", "<leader>tt", ":tabnew<CR>", opts)
+keymap("n", "<leader>tq", ":tabclose<CR>", opts)
+
 -- enter modes easily
 keymap("i", "jk", "<ESC>", opts)
-keymap("i", "cv", "<ESC>v<cr>", opts)
+keymap("i", "cv", "<ESC>v", opts)
 
 -- move text up and down
 --keymap("v", "p", '"_dP', opts)
@@ -57,5 +62,6 @@ keymap("n", "<leader>sc", "<cmd>Telescope spell_suggest<cr>", opts)
 keymap("n", "<leader>fc", "<cmd>lua require('telescope.builtin').find_files({cwd='~/.config/nvim'})<CR>", opts)
 
 -- terminal
-keymap("n", "<c-_>", ":terminal<CR>", opts)
+keymap("n", "<c-\\>", ":tabnew<CR>:terminal<CR>", opts)
 keymap("t", "<ESC>", "<C-\\><C-n>", opts)
+
