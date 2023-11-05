@@ -41,6 +41,8 @@ keymap('n', '<A-Up>', ':move .-2<CR>==', opts)
 keymap('n', '<A-Down>', ':move .+1<CR>==', opts)
 keymap('i', '<A-Up>', '<ESC>:move .-2<CR>==i', opts)
 keymap('i', '<A-Down>', '<ESC>:move .+1<CR>==i', opts)
+keymap("i", "<c-CR>", "<ESC>o", opts)
+keymap("i", "<c-S-CR>", "<ESC>O", opts)
 
 -- exit modes
 keymap("n", "Q", ":q!<CR>", opts)
@@ -54,3 +56,6 @@ keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
 keymap("n", "<leader>sc", "<cmd>Telescope spell_suggest<cr>", opts)
 keymap("n", "<leader>fc", "<cmd>lua require('telescope.builtin').find_files({cwd='~/.config/nvim'})<CR>", opts)
 
+-- terminal
+keymap("n", "<c-_>", ":terminal<CR>", opts)
+keymap("t", "<ESC>", "<C-\\><C-n>", opts)

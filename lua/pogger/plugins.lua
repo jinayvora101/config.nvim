@@ -37,7 +37,7 @@ return packer.startup(function(use)
 	use "wbthomason/packer.nvim"
 	use "nvim-lua/popup.nvim"
 	use "nvim-lua/plenary.nvim"
-	use "akinsho/toggleterm.nvim"
+	-- use "akinsho/toggleterm.nvim"
 	use "nvim-telescope/telescope.nvim"
 	use "nvim-lualine/lualine.nvim"
 	use "lukas-reineke/indent-blankline.nvim"
@@ -52,6 +52,7 @@ return packer.startup(function(use)
 	use "jiangmiao/auto-pairs"
 	use "folke/which-key.nvim"
 	use "folke/tokyonight.nvim"
+	-- use "lewis6991/gitsigns.nvim"
 
 
 	use "hrsh7th/nvim-cmp"
