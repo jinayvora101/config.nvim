@@ -7,6 +7,6 @@ require "pogger.nvimtree"
 require "pogger.options"
 require "pogger.plugins"
 require "pogger.telescope"
--- require "pogger.term"
+require "pogger.gitsigns"
 require "pogger.treesitter"
 
