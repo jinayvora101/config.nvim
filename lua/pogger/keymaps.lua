@@ -33,8 +33,9 @@ keymap("n", "<C-S-Down>", ":horizontal resize +1<CR>", opts)
 -- keymap("n", "<S-Left>", ":bprevious<CR>", opts)
 
 -- Tab navigation
-keymap("n", "<leader>tt", ":tabnew<CR>", opts)
-keymap("n", "<leader>tq", ":tabclose<CR>", opts)
+keymap("n", "<leader>tn", ":tabnew<CR>", opts)
+keymap("n", "<leader>tc", ":tabclose<CR>", opts)
+keymap("n", "<leader>tt", ":tabnew<CR>:terminal<CR>", opts)
 
 -- enter modes easily
 keymap("i", "jk", "<ESC>", opts)
@@ -62,6 +63,6 @@ keymap("n", "<leader>sc", "<cmd>Telescope spell_suggest<cr>", opts)
 keymap("n", "<leader>fc", "<cmd>lua require('telescope.builtin').find_files({cwd='~/.config/nvim'})<CR>", opts)
 
 -- terminal
-keymap("n", "<c-\\>", ":tabnew<CR>:terminal<CR>", opts)
+keymap("n", "<c-\\>", ":split<CR>:terminal<CR>:resize 10<CR>", opts)
 keymap("t", "<ESC>", "<C-\\><C-n>", opts)
 
