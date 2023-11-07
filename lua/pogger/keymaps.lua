@@ -28,10 +28,6 @@ keymap("n", "<C-S-Right>", ":vertical resize +1<CR>", opts)
 keymap("n", "<C-S-Up>", ":horizontal resize -1<CR>", opts)
 keymap("n", "<C-S-Down>", ":horizontal resize +1<CR>", opts)
 
--- Buffer navigation
--- keymap("n", "<S-Right>", ":bnext<CR>", opts)
--- keymap("n", "<S-Left>", ":bprevious<CR>", opts)
-
 -- Tab navigation
 keymap("n", "<leader>tn", ":tabnew<CR>", opts)
 keymap("n", "<leader>tc", ":tabclose<CR>", opts)
@@ -42,7 +38,6 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("i", "cv", "<ESC>v", opts)
 
 -- move text up and down
---keymap("v", "p", '"_dP', opts)
 keymap('n', '<A-Up>', ':move .-2<CR>==', opts)
 keymap('n', '<A-Down>', ':move .+1<CR>==', opts)
 keymap('i', '<A-Up>', '<ESC>:move .-2<CR>==i', opts)
