@@ -13,8 +13,10 @@ vim.g.maplocalleader = " "
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- soft moving lines
-vim.keymap.set('n', '<Up>', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
-vim.keymap.set('n', '<Down>', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
+vim.keymap.set({'n', "v"}, '<Up>', "gk", opts)
+vim.keymap.set({'n', "v"}, '<Down>', "gj", opts)
+vim.keymap.set("i", '<Up>', "<ESC>gka", opts)
+vim.keymap.set("i", '<Down>', "<ESC>gja", opts)
 
 -- Better window navigation
 keymap("n", "<C-Left>", "<C-w>h", opts)
